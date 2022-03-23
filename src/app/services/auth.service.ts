@@ -67,7 +67,7 @@ export class AuthService {
 
   logOut() {
     window.sessionStorage.removeItem(USER_KEY);
-    this.router.navigate(['login']);
+    this.router.navigate(['/']);
   }
 
   // Error

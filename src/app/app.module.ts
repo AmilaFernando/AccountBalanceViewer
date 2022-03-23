@@ -11,6 +11,7 @@ import { AccountBalancesComponent } from './account-balances/account-balances.co
 import { ImportBalancesComponent } from './import-balances/import-balances.component';
 import { BalancesChartComponent } from './balances-chart/balances-chart.component';
 import { NgChartsModule } from 'ng2-charts';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgChartsModule } from 'ng2-charts';
     SigninComponent,
     AccountBalancesComponent,
     ImportBalancesComponent,
-    BalancesChartComponent
+    BalancesChartComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
