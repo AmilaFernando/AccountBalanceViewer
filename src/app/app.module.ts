@@ -5,7 +5,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SigninComponent } from './signin/signin.component';
 import { AuthInterceptor } from './shared/authconfig.interceptor';
 import { AccountBalancesComponent } from './account-balances/account-balances.component';
 import { ImportBalancesComponent } from './import-balances/import-balances.component';
@@ -16,7 +15,6 @@ import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-    SigninComponent,
     AccountBalancesComponent,
     ImportBalancesComponent,
     BalancesChartComponent,
